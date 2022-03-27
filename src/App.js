@@ -1,6 +1,8 @@
+import { Component } from "react";
 import ArticleList from "./components/ArticleList/ArticleList";
 import List from "./components/List/List";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
+import Table from "./components/Table/Table";
 
 function App() {
   // Homework
@@ -9,6 +11,7 @@ function App() {
     ["Example", "Example", "Example"],
     ["Example", "Example", "Example"]
   ];
+
   // Output using:
   // <Table src={example} />
 
@@ -50,10 +53,11 @@ function App() {
       <ul>
         {fruitsList}
       </ul>
-
+     
       <List src={veggies} />
-
       <ArticleList src={articles} />
+      {/* <Table src={example} /> */}
+
 
       <table>
         <tr>
@@ -72,10 +76,9 @@ function App() {
           <td>Example</td>
         </tr>
       </table>
-    </div>
+
+     </div>
   );
- 
- 
 }
 
 export default App;

@@ -32,9 +32,9 @@ function App() {
   ));
 
   const articles = [
-    { title: "This is an example article", url: "#", teaser: "lorem" },
-    { title: "Another article as an example", url: "#", teaser: "lorem" },
-    { title: "Last example article", url: "#", teaser: "lorem" },
+    { title: "This is an example article", url: "#", teaser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta magnam itaque culpa repellat sequi dolorum quo in quaerat quae hic perferendis nam eligendi illum officia necessitatibus incidunt possimus, voluptates praesentium." },
+    { title: "Another article as an example", url: "#", teaser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta magnam itaque culpa repellat sequi dolorum quo in quaerat quae hic perferendis nam eligendi illum officia necessitatibus incidunt possimus, voluptates praesentium." },
+    { title: "Last example article", url: "#", teaser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta magnam itaque culpa repellat sequi dolorum quo in quaerat quae hic perferendis nam eligendi illum officia necessitatibus incidunt possimus, voluptates praesentium." },
   ];
 
   return (

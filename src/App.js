@@ -61,8 +61,6 @@ function App() {
           <td>Example</td>
           <td>Example</td>
           <td>Example</td>
-        </tr>
-        <tr>
           <td>Example</td>
           <td>Example</td>
           <td>Example</td>
@@ -71,7 +69,27 @@ function App() {
           <td>Example</td>
           <td>Example</td>
           <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
         </tr>
+        <tr>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+        </tr>
+        <tr>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+          <td>Example</td>
+        </tr>
+     
       </table>
 
      </div>

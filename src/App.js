@@ -1,4 +1,3 @@
-import { Component } from "react";
 import ArticleList from "./components/ArticleList/ArticleList";
 import List from "./components/List/List";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -56,8 +55,6 @@ function App() {
      
       <List src={veggies} />
       <ArticleList src={articles} />
-      {/* <Table src={example} /> */}
-
 
       <table>
         <tr>

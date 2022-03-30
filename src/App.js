@@ -1,7 +1,7 @@
 import ArticleList from "./components/ArticleList/ArticleList";
 import List from "./components/List/List";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
-// import Table from "./components/Table/Table";
+import Table from "./components/Table/Table";
 
 function App() {
   // Homework

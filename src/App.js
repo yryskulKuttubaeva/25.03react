@@ -1,15 +1,15 @@
 import ArticleList from "./components/ArticleList/ArticleList";
 import List from "./components/List/List";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
-import Table from "./components/Table/Table";
+// import Table from "./components/Table/Table";
 
 function App() {
   // Homework
-  const example = [
-    ["Example", "Example", "Example"],
-    ["Example", "Example", "Example"],
-    ["Example", "Example", "Example"]
-  ];
+  // const example = [
+  //   ["Example", "Example", "Example"],
+  //   ["Example", "Example", "Example"],
+  //   ["Example", "Example", "Example"]
+  // ];
 
   // Output using:
   // <Table src={example} />
@@ -22,10 +22,10 @@ function App() {
   ];
 
   // Homework 2: Spread operator
-  const fruits2 = [...fruits];
+  // const fruits2 = [...fruits];
 
   // Homework 3: Deconstructing array
-  const [carrot, potato, strawberry] = veggies;
+  // const [carrot, potato, strawberry] = veggies;
 
   const fruitsList = fruits.map((fruit) => (
     <li>
